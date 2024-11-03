@@ -6,7 +6,6 @@
 int main() {
     std::cout << "./server.elf\n";
     std::cout.flush();
-    std::cout.flush();
     PIPE::PIPEServer server = PIPE::PIPEServer("pipecommtest");
     std::string data;
     int i = 0;
@@ -23,6 +22,6 @@ int main() {
             break;
         }
         i++;
-        usleep(20);
+        usleep(2);
     }
 }
