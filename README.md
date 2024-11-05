@@ -1,9 +1,9 @@
 # c++ socket-like communication implementation with pipe
 ## supported systems
-- [x] **linux** x86_64\
-- [ ] **windows** x32\
-- [ ] **macos** amd64\
-- [ ] **macos** arm64
+- [x] **linux** x86_64
+- [ ] **windows** x32
+- [x] **macos** amd64
+- [x] **macos** arm64
 ## usage
 abstract classes
 - ```c++
